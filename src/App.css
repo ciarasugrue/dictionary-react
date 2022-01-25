@@ -5,3 +5,8 @@ body {
 a {
     color: #407088;
 }
+
+.App-header {
+font-size: 40px;
+font-weight: 900;
+}
