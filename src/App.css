@@ -2,8 +2,8 @@ body {
     background: #bbe4e9;
 }
 
-a {
-    color: #407088;
+.App a {
+    color: grey;
 }
 
 .App {
@@ -14,4 +14,10 @@ margin: 0 auto;
 .App-header {
 font-size: 40px;
 font-weight: 900;
+}
+
+.App footer {
+font-family: 'Courier New', Courier, monospace;
+color: grey;
+font-weight: bold;
 }

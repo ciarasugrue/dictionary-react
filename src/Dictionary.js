@@ -1,19 +1,14 @@
 import React, { useState } from "react";
 import axios from "axios";
-import './Dictionary.css';
 import Results from './Results';
 import Photos from './Photos';
+import './Dictionary.css';
 
 export default function Dictionary(props) {
 let [keyword, setKeyword] = useState(props.defaultKeyword);
 let [results, setResults] = useState(null);
 let [loaded, setLoaded] = useState(false);
 let [photos, setPhotos] = useState(null);
-
-function load() {
-    setLoaded(true);
-    search()
-}
 
 function handleDictionaryResponse(response) {
 setResults(response.data[0]);
@@ -42,6 +37,11 @@ function handleKeywordChange(event) {
 setKeyword(event.target.value);
 }
 
+function load() {
+    setLoaded(true);
+    search()
+}
+
 if (loaded) {
     return (
         <div className="Dictionary">
@@ -61,5 +61,6 @@ if (loaded) {
     );
 } else {
     load();
+    return "Loading";
 }
 }

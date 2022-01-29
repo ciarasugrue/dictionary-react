@@ -8,9 +8,12 @@ function App() {
       <header className="App-header">Dictionary
       </header>
       <main>
-        <Dictionary defaultKeyword="sunset"/>
+        <Dictionary defaultKeyword="water"/>
       </main>
-      <footer>Coded by Ciara</footer>
+      <footer>Coded by <a href="https://www.linkedin.com/in/ciara-sugrue-5078791b5/" 
+        target="_blank" 
+        rel="noreferrer">Ciara Ní Shiochrú</a>
+      </footer>
       </div>
     </div>
   );
