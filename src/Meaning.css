@@ -1,14 +1,14 @@
-.meaning h3 {
-font-size: 28px;
-}
-
 .meaning .definition {
 font-weight: 500;
 }
 
 .meaning .example {
 font-size: 13px;
-opacity: 0.8;
 font-style: italic;
 margin-top: 5px;
+opacity: 0.8;
+}
+
+.meaning h3 {
+font-size: 28px;
 }

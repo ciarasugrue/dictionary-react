@@ -1,14 +1,6 @@
-body {
-    background: #bbe4e9;
-}
-
-.App a {
-    color: grey;
-}
-
 .App {
+margin: 0 auto;  
 max-width: 950px;
-margin: 0 auto;
 }
 
 .App-header {
@@ -16,8 +8,16 @@ font-size: 40px;
 font-weight: 900;
 }
 
-.App footer {
-font-family: 'Courier New', Courier, monospace;
+.App a {
 color: grey;
+}
+
+.App footer {
+color: grey;    
+font-family: 'Courier New', Courier, monospace;
 font-weight: bold;
+}
+
+body {
+background: #bbe4e9;
 }

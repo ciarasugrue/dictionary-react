@@ -38,14 +38,14 @@ setKeyword(event.target.value);
 }
 
 function load() {
-    setLoaded(true);
-    search()
+setLoaded(true);
+search()
 }
 
 if (loaded) {
-    return (
-        <div className="Dictionary">
-            <section>
+return (
+    <div className="Dictionary">
+        <section>
             <h1>What word are you looking for?</h1>
             <form onSubmit={handleSubmit}>
                 <input 
@@ -54,13 +54,13 @@ if (loaded) {
                 defaultValue={props.defaultKeyword}
                 />
             </form>
-            </section>
-            <Results results={results} />
-            <Photos photos={photos} />
-        </div>
+        </section>
+        <Results results={results} />
+        <Photos photos={photos} />
+    </div>
     );
 } else {
-    load();
-    return "Loading";
+load();
+return "Loading";
 }
 }

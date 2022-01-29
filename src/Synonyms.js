@@ -10,7 +10,7 @@ if (props.synonyms) {
             <li key={index}>
                 {synonym}
             </li>
-        )
+        );
     })}
 </ul>
     )

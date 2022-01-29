@@ -1,11 +1,11 @@
 .phonetics .audio {
-text-decoration: none;
 border: 1px solid;
 border-radius: 5px;
 padding: 2px 5px;
+text-decoration: none;
 }
 
 .phonetics a:hover {
-color: white;
 background: #407088;
+color: white;
 }
